@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #87CEFA;
+  letter-spacing: -0.2px;
+  font-size: 16px;
+}
+
+form {
+  padding: 16px;
+  width: 320px;
+  margin: 0 auto;
+}
+
+h2 {
+  padding: 16px 0 0 0;
+  text-align: center;
+  text-shadow: 1px 1px 1px #E0FFFF;
+}
+
+h3{
+  text-align: center;
+  text-shadow: 1px 1px 1px #E0FFFF;
+}
+
+input {
+  border: 0;
+  outline: 0;
+  font-size: 15px;
+  border-radius: 15px;
+  padding: 16px;
+  text-shadow: 1px 1px 0 #FFF;
+  width: 100%;
+  box-shadow:4px 4px 10px rgba(0,0,0,0.06);
+}
+
+input[type=text] {
+  box-shadow:4px 4px 10px rgba(0,0,0,0.06);
+  margin-bottom: 16px;
+}
+
+input[type=submit] {
+  font-weight: bold;
+  box-shadow:4px 4px 10px rgba(0,0,0,0.06);
+  cursor: pointer;
+}
+input[type=submit]:hover {
+  box-shadow: -2px -2px 5px #1E90FF, 2px 2px 5px #7B68EE;
+}
+input[type=submit]:active {
+  box-shadow: inset 1px 1px 2px #BABECC, inset -1px -1px 2px #FFF;
+}
+
+
+.otvet_cont{
+  width: auto;
+  height: auto;
+}
+
+.otvet{
+  margin: 0 auto;
+  background-color: #FFF;
+  width: 288px;
+  border: 0;
+  text-align: center;
+  font-size: 15px;
+  border-radius: 15px;
+  height: auto;
+  width: auto;
+  max-width: 500px;
+  min-width: 20px;
+  min-height: 70px;
+  box-shadow:4px 4px 10px rgba(0,0,0,0.06);
+  padding: 16px;  
+  font-family:Arial;
+}
